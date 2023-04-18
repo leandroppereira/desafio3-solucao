@@ -47,4 +47,8 @@ Fique atento os logs do build:
 
 oc logs -f buildconfig/hello-class
 
+oc get svc
+
+oc expose svc hello-class
+
 Ele mostra o que você cuatomizou no arquivo assemble
