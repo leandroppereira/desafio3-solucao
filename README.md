@@ -52,3 +52,7 @@ oc get svc
 oc expose svc hello-class
 
 Ele mostra o que você cuatomizou no arquivo assemble
+
+curl -s hello-class-info.apps.cluster-v6kb6.v6kb6.sandbox1829.opentlc.com/index.html
+
+curl -s hello-class-info.apps.cluster-v6kb6.v6kb6.sandbox1829.opentlc.com/info.html
