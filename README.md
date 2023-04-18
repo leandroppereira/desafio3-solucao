@@ -41,3 +41,10 @@ oc get is
 o comando lista os image streams
 
 oc new-app --name=hello-class httpd:2.4~https://github.com/leandroppereira/desafio3-solucao
+
+
+Fique atento os logs do build:
+
+oc logs -f buildconfig/hello-class
+
+Ele mostra o que você cuatomizou no arquivo assemble
